@@ -1,0 +1,25 @@
+/* Estilo para o container da imagem */
+.zoom-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Estilo para a imagem */
+.zoom-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.1s ease;
+}
+
+/* Estilo para o selo de desconto */
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
